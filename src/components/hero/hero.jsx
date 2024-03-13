@@ -94,7 +94,7 @@ At Voguish, we believe that our delivery options will give you the best experien
       <a href="https://wa.me/+25440582851" class="ml-3 text-gray-500">
                 <RiWhatsappFill class="w-5 h-5" viewBox="0 0 24 24"/>
               </a>
-      <a href="https://www.instagram.com/voguish_eyewearandaccesories" class="ml-3 text-gray-500">
+      <a href="https://www.instagram.com/voguish_.eyewearandaccessories" class="ml-3 text-gray-500">
                 <RiInstagramFill  class="w-5 h-5" viewBox="0 0 24 24" />
               </a> 
       </span>

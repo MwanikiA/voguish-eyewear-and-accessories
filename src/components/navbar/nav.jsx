@@ -41,7 +41,7 @@ const Navbar = () => {
               <a href="https://wa.me/+254740582851">
                 <RiWhatsappFill /> WhatsApp
               </a>
-              <a href="https://www.instagram.com/voguish_eyewearandaccesories">
+              <a href="https://www.instagram.com/voguish_.eyewearandaccessories">
                 <RiInstagramFill /> Instagram
               </a>
             </div>

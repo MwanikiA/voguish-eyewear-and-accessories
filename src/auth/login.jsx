@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { supabase } from "../utils/supabaseConfig";
 import { Link } from "react-router-dom"
+import './login.css'
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -23,11 +24,11 @@ const Login = () => {
   }
   
   return (
-    <div class="flex flex-col justify-center content-center">
+    <div className="parent-container" >
     <form onSubmit={signInWithEmail}>
-      <h2>Login</h2>
+      <h2 className="title">Login</h2>
 
-      <div class="border-solid border-black ">
+      <div className="child" >
       <input
         type="text"
         name="email"
@@ -35,8 +36,8 @@ const Login = () => {
         onChange={(e) => setEmail(e.target.value)}
       />
       </div>
-      <h2> Password</h2>
-      <div class="border-solid border-black ">
+      <h2 className="title"> Password</h2>
+      <div className="child">
       <input
         type="text"
         name="password"
@@ -45,9 +46,11 @@ const Login = () => {
       />
       </div>
 
-      <Link to={"/"} class="border-solid border-black ">
-        <button  type="submit">Submit</button>
+     <div className="child2">
+      <Link  to={"/"} >
+        <button type="submit">Submit</button>
         </Link>
+      </div>
     </form>
     </div>
   );
